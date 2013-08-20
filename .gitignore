@@ -1,0 +1,33 @@
+# project files
+.idea/*
+
+# environment files
+*/config/*-environment.php
+*/tests/acceptance.suite.yml
+*/tests/functional.suite.yml
+*/www/css/*
+*/www/js/*
+*/www/index.php
+*/www/test.php
+
+# local configurations
+*/config/*-local.php
+
+# runtime directories
+*/runtime/*
+*/tests/_log/*
+*/www/assets/*
+*/www/files/*
+
+# composer
+vendor/*
+composer.phar
+
+# codeception
+codecept.phar
+
+# npm
+node_modules/*
+
+# vagrant
+.vagrant/
